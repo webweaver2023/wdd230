@@ -1,0 +1,46 @@
+header h1 {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+main p{
+    line-height: 1.5em;
+    width: 35%;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+main h4 {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+div.container {
+    text-align: center;
+}
+ol.myOL {
+    display: inline-block;
+    text-align: left;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+}
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.5em;
+    width: 22%;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+.myFooter {
+    text-align: center;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    width: 28%;
+    margin: 0 auto;     
+}
