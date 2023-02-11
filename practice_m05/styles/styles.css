@@ -1,16 +1,41 @@
-header {
-    margin: 0;
+#circles {
+  width: 100%;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+footer {
+  width: 100%;
+  height: 700px;
+  background-color: gray;
+}
+/*three image container for row, etc */
 .column {
-    float: left;
-    width: 20%;
-    padding: 5px;
-  }
+  float: left;
+  width: 25%;
+  padding: 60px;
+  padding-top: 100px;
+}
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
+.column
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 30px solid darkslategray;
+  padding: 0;
+}
+.images {
+  margin: auto;
+  width: 50%;
+  
+}
+#hero img {
+  border-radius: 0;
+  border: none;
+  max-width: 100%;
+}
+
