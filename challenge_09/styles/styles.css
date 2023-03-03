@@ -1,0 +1,66 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+  }
+  img {
+    border-radius: 15px 15px 0px 0px;
+  }
+  .main {
+    
+    text-align: center;
+    border: 50px;
+  }
+  .grid-template {
+    
+    border: 1px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-row: 50px 50px 50px;
+    grid-gap: 1px;
+    justify-content: center;
+  }
+  .grid-1 .grid-2 .grid-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .grid-1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 0px 0px 0px 15px;
+
+  
+  }
+  .grid-2 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+  }
+  .grid-3 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 0px 0px 15px 0px;
+  }
+  .color-blue {
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .headline {
+    margin: 5px;
+  }
+  .main-p {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow: visible;
+  }
+ 
