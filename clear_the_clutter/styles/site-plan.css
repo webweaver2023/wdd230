@@ -4,10 +4,10 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Quicksand:wght@500&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #375472  ;
-  --secondary-color: #b9314f ;
-  --accent1-color: #e1dee3;
-  --accent2-color: #d5a18e;
+  --primary-color: #b9314f ;
+  --secondary-color: #d5a18e ;
+  --accent1-color: #375472;
+  --accent2-color: #e1dee3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Quicksand", Helvetica, sans-serif;
@@ -18,11 +18,11 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #375472; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #b9314f  ;
+  --paragraph-background-color: #d5a18e;
   --nav-link-color: #e1dee3;
-  --nav-background-color: #375472;
-  --nav-hover-link-color: #b9314f;
-  --nav-hover-background-color: #d5a18e;
+  --nav-background-color: #b9314f;
+  --nav-hover-link-color: #375472;
+  --nav-hover-background-color: #e1dee3;
 }
 
 
