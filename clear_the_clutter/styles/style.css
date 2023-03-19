@@ -295,17 +295,24 @@ footer p{
   padding: 0;
 }
 .services-home-img {
-  display: none;
+ margin-left: 0;
+ width: 100%;
+ display: block;
+ margin-top: -40px;
+ 
 }
 
 footer {
-  margin-top: 300px;
+  margin-top: 50px;
 }
 .foot-nav a {
   width: 80px;
 }
 .navbar a {
   width: 100px;
+}
+.services-msg {
+  position: relative;
 }
 }
 
