@@ -298,12 +298,12 @@ footer p{
  margin-left: 0;
  width: 100%;
  display: block;
- margin-top: -40px;
+ margin-top: 40px;
  
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .foot-nav a {
   width: 80px;
@@ -313,6 +313,9 @@ footer {
 }
 .services-msg {
   position: relative;
+}
+footer h2 {
+  margin-top: 0;
 }
 }
 
