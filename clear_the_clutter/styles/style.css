@@ -255,10 +255,12 @@ footer p{
   }
   div .welcome-msg, .services-msg{
     width: 100%; 
+    height: 300px;
     margin: 0; 
     padding-bottom: 5px;
     padding: 0; 
     position: relative;
+    
   }
 
  .welcome-msg h1 {
@@ -271,6 +273,8 @@ footer p{
   font-size: 16px;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
 
  }
  .testimonial-msg {
