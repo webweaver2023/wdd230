@@ -254,23 +254,23 @@ footer p{
    display: none;
   }
   div .welcome-msg, .services-msg{
-    
-    max-width: 485px;
     width: 100%; 
-    
     margin: 0; 
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  
-    
+    padding: 0; 
+    position: relative;
   }
 
  .welcome-msg h1 {
-  font-size: 20px;
+  font-size: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
+
  }
  .welcome-msg p {
-  font-size: 12px;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
 
  }
  .testimonial-msg {
@@ -279,7 +279,7 @@ footer p{
 
  }
 .testimonial-msg h2 {
-  margin-top: 300px;
+  margin-top: 60px;
 }
 .testimonial-msg p {
   margin-top: 0;
@@ -291,13 +291,18 @@ footer p{
   padding-bottom: 80px;
 }
 .services-msg h1 {
-  font-size: 20px;
+  font-size: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .services-msg p {
-  font-size: 12px;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .button-box {
   padding: 0;
+  padding-left: 25px;
 }
 .services-home-img {
  margin-left: 0;
