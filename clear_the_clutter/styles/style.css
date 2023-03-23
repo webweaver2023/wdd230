@@ -48,7 +48,7 @@ div.center {
 
   }
  
-  #hero-msg {
+  #hero-msg, #hero-msg-2 {
     background: rgba(225, 222, 227, 0.8);
     text-align: center;
     grid-column : 1/4;
@@ -59,7 +59,7 @@ div.center {
     border-radius: 3%;
     
  }
-  .home-title {
+  .home-title, .services-title {
     color: #b9314f;
     opacity: .8;
     font-size: 3.5em;
@@ -85,7 +85,7 @@ div.center {
   
   padding-left: 35px;
   padding-right: 35px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   padding-top: 5px;
   width: 500px;
   height: 250px;
@@ -164,6 +164,7 @@ div.center {
   text-decoration: none;
   font-size: 16px;
   padding: 10px 30px;
+  font-family: "Quicksand", sans-serif;
 }
 .services-home-img {
   position: relative;
@@ -232,6 +233,87 @@ footer p{
 .contact-us:hover, .test-button:hover, .services-button:hover {
   background-color: rgba(213, 161, 142, 0.7);
   color: #b9314f;
+}
+
+
+/*Page 2 Services Styles*/
+#hero-msg-2 {
+  /*center text in image*/
+  margin-top: -80px; 
+}
+.services-title {
+  margin: 0;
+}
+
+
+.services-intro h3 {
+  font-family: "Playfair Display", serif;
+  color: #b9314f;
+  text-align: center;
+  font-size: 1.5em;
+ 
+}
+.services-intro h1 {
+  font-family: "Playfair Display", serif;
+  color: #b9314f;
+  text-align: center;
+  font-size: 2.5em;
+}
+.services-intro p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: #b9314f;
+  font-size: 1.2em;
+  padding: 30px;
+  
+}
+.services-intro h2 {
+  font-family: "Quicksand", serif;
+  text-align: center;
+  color: #b9314f;
+  font-size: 1.5em;
+}
+.services-img1, .services-img2 {
+  width: 100%;
+}
+.process1, .process2, .process3, .process4, h3 {
+  font-family:"Playfair Display", serif;
+  color: #b9314f;
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+.process1, .process2, .process3, .process4, p {
+  font-family: "Quicksand", sans-serif;
+  color: #375472;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.process1, .process2, .process3, .process4 {
+  background: #E1dee3;
+  padding: 20px;
+
+}
+.call-to-action h3 {
+  font-size: 1.5em;
+  
+}
+.call-to-action h1 {
+  font-family: "Playfair Display", serif;
+  color: #b9314f;
+  font-size: 2em;
+  text-align: center;
+}
+.contact-us {
+  font-family: "Quiksand", sans-serif;
+}
+.button-box-page2 {
+  text-align: center;
+  padding-right: 100px;
+  font-family: "Playfair Display", serif;
+  padding: 0;
+
 }
 
 
@@ -332,4 +414,5 @@ footer h2 {
   margin-top: 0;
 }
 }
+
 
