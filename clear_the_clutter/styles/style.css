@@ -243,6 +243,7 @@ footer p{
 }
 .services-title {
   margin: 0;
+  font-size: 6em;
 }
 
 
@@ -250,21 +251,25 @@ footer p{
   font-family: "Playfair Display", serif;
   color: #b9314f;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
+  margin-top: 80px;
+  margin-bottom: 20px;
  
 }
 .services-intro h1 {
   font-family: "Playfair Display", serif;
   color: #b9314f;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
+  margin: 0;
 }
 .services-intro p {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   color: #b9314f;
-  font-size: 1.2em;
-  padding: 30px;
+  font-size: 1.5em;
+  padding: 60px;
+  margin: 0px 150px 0px 150px;
   
 }
 .services-intro h2 {
@@ -272,6 +277,7 @@ footer p{
   text-align: center;
   color: #b9314f;
   font-size: 1.5em;
+  margin-top: 0;
 }
 .services-img1, .services-img2 {
   width: 100%;
@@ -280,41 +286,109 @@ footer p{
   font-family:"Playfair Display", serif;
   color: #b9314f;
   text-align: center;
-  font-size: 1.3em;
-  margin-top: 10px;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 .process1, .process2, .process3, .process4, p {
   font-family: "Quicksand", sans-serif;
   color: #375472;
   text-align: center;
   font-size: 1.2em;
+  margin-top: 10px;
+  padding: 30px;
+  padding-top: 10px;
 }
 
 .process1, .process2, .process3, .process4 {
   background: #E1dee3;
   padding: 20px;
+  margin-top: 0px;
+  height: 288px;
+  width: 650px;
 
 }
 .call-to-action h3 {
-  font-size: 1.5em;
+  font-family: "Playfair Display", serif;
+  color: #b9314f;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 60px;
+  margin-bottom: 20px;
   
 }
 .call-to-action h1 {
   font-family: "Playfair Display", serif;
   color: #b9314f;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 .contact-us {
   font-family: "Quiksand", sans-serif;
+  font-size: .5em;
 }
 .button-box-page2 {
   text-align: center;
   padding-right: 100px;
   font-family: "Playfair Display", serif;
   padding: 0;
+  font-size: 3em;
 
 }
+
+#services-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
+
+}
+.services-intro {
+  grid-column: 1/4;
+  margin-bottom: 60px;
+  text-align: center;
+  
+}
+
+.services-img1 {
+  grid-column: 1/3;
+  width: 100%;
+  margin-left: -150px;
+  padding-left: 5px;
+  
+  
+
+}
+.process1 {
+ margin-left: -130px;
+
+  
+}
+.process2 {
+  margin-left: -130px;
+  margin-top: 35px;
+
+}
+.process3 {
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+.services-img2 {
+  grid-column: 2/4;
+  margin-top: 60px ;
+  margin-left: 20px;
+  height: 92.2%;
+}
+.call-to-action {
+  grid-column: 1/4;
+  margin-top: 40px;
+}
+.process3 h3 {
+  margin-top: 50px;
+}
+.process4 h3 {
+  margin-top: 50px;
+}
+
 
 
 /* Responsive to smaller screen*/
