@@ -417,6 +417,7 @@ footer p{
   #hero, .home-grid, .grid2 {
     display: block;
     height: auto;
+    
   }
   #hero-msg {
     background: none;
@@ -525,7 +526,7 @@ footer h2 {
   margin: 0;
   width: 100%;
   margin-bottom: 20px;
-  height: 200px;
+  height: 220px;
 }
 .services-img2 {
   width: 100%;
@@ -538,7 +539,28 @@ footer h2 {
 
 .services-intro h3 {
   margin-top: 60px;
+  font-size: 20px;
 }
+#hero-box {
+  width: 100%;
+}
+.services-title {
+  font-size: 32px;
+}
+.services-intro h1 {
+  font-size: 28px;
+}
+.services-intro p {
+  font-size: 16px;
+  padding: ;
+}
+.call-to-action h3 {
+  font-size: 16px;
+}
+.call-to-action h1 {
+  font-size: 24px;
+}
+
 
 }
 
