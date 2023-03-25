@@ -524,7 +524,7 @@ footer h2 {
 }
 .process1, .process2, .process3, .process4 {
   margin: 0;
-  width: 100%;
+  width: auto;
   margin-bottom: 20px;
   height: 280px;
 }
