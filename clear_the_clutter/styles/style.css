@@ -48,7 +48,7 @@ div.center {
 
   }
  
-  #hero-msg, #hero-msg-2 {
+  #hero-msg, #hero-msg-2, #hero-msg-3 {
     background: rgba(225, 222, 227, 0.8);
     text-align: center;
     grid-column : 1/4;
@@ -408,6 +408,108 @@ footer p{
 .process4 h3 {
   margin-top: 50px;
 }
+
+
+/*Page 3 Testimonials Styles*/
+
+#content3 {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.center3 {
+  text-align: center;
+}
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 15px;
+}
+
+.test-title {
+  color: #b9314f;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;  
+}
+#hero-msg-3 {
+  margin-top: -60px;
+}
+.test1, .test4 {
+  padding: 60px;
+  background: #E1dee3;
+  height: 150px;
+  align-self: center;
+  justify-self: center;
+}
+ #test-grid {
+  margin-top: 80px;
+ }
+ .test2, .test3, .test5, .test6 {
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+ }
+ .testimonial-cta h1 {
+  font-family: "Playfair Display",serif;
+  color: #b9314f;
+  font-size: 2em;
+ }
+ .testimonial-cta {
+  grid-column: 1/4;
+ }
+.button-box3 {
+  text-align: center;
+  padding-right: 100px;
+  padding: 0;
+}
+.test-img {
+  width: 100%;
+}
+#test-grid {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+}
+.test1 {
+  grid-column: 1/4;
+}
+.test2 {
+  padding-top: 25px;
+}
+.test3 {
+  grid-column: 3/4;
+}
+.test4 {
+  grid-column: 1/4;
+}
+.test6 {
+  grid-column: 3/4;
+  padding-top: 25px;
+}
+.testbox-cta {
+  background: rgba(225, 222, 227, 0.8);
+  text-align: center;
+  border-radius: 3%;
+  padding: 10px 10px 60px 10px;
+
+  margin-top: -650px;
+  height: 120px;
+  width: 450px;
+  grid-column: 1/4;
+  align-self: center;
+  justify-self: center;
+}
+
+.testbox-cta h1 {
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  color: #b9314f;
+  padding-bottom: 10px;
+  font-size: 2.5em;
+}
+
+
 
 
 
