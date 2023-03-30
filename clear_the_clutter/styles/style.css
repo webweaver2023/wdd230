@@ -48,7 +48,7 @@ div.center {
 
   }
  
-  #hero-msg, #hero-msg-2, #hero-msg-3 {
+  #hero-msg, #hero-msg-2 {
     background: rgba(225, 222, 227, 0.8);
     text-align: center;
     grid-column : 1/4;
@@ -430,11 +430,18 @@ footer p{
   color: #b9314f;
   font-family: "Playfair Display", serif;
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   margin: 0;  
 }
 #hero-msg-3 {
-  margin-top: -60px;
+  background: rgba(225, 222, 227, 0.8);
+    text-align: center;
+    grid-column : 1/4;
+    grid-row: 2/3;
+    margin: auto;
+    padding: 30px 50px;
+    margin-top: -160px;
+    border-radius: 3%;
 }
 .test1, .test4 {
   padding: 60px;
