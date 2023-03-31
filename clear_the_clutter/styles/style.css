@@ -693,7 +693,8 @@ footer h2 {
   margin-top: 10px;
   background: white;
   font-size: 12px;
-  width: 100%;
+  width: auto;
+  
 }
 #test-grid {
   display: block;
