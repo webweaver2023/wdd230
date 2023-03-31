@@ -707,13 +707,17 @@ footer h2 {
   margin: 0;
 }
 .test1, .test4 {
-  font-size: 14px;
-  height: 220px;
+  font-size: 12px;
   width: auto;
+  height: auto;
 }
+
 .test1 h3 {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+}
+.test4 h3 {
+  padding-bottom: 40px;
 }
 .test2, .test3, .test5, .test6 {
   grid-column: 1/4;
@@ -735,7 +739,7 @@ footer h2 {
 .testbox-cta {
 width: 100%;
  margin: 0;
- background: white;
+ background: none;
 
 }
 .test4 h3 {
@@ -746,6 +750,9 @@ width: 100%;
 }
 #hero-box3 {
   width: 100%;
+}
+.testbox-cta h1 {
+  font-size: 26px;
 }
 
 }
