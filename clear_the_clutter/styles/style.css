@@ -675,12 +675,13 @@ footer h2 {
 #hero-msg-3 {
   margin-top: 10px;
   background: white;
+  font-size: 12px;
 }
 #test-grid {
   margin-top: 30px;
 }
 .test1, .test4 {
-  font-size: 16px;
+  font-size: 12px;
   height: 220px;
 }
 .test1 h3 {
