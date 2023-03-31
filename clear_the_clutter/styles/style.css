@@ -671,7 +671,45 @@ footer h2 {
 .call-to-action h1 {
   font-size: 24px;
 }
+/* Responsive screen-Page 3 */
+#hero-msg-3 {
+  margin-top: 10px;
+  background: white;
+}
+#test-grid {
+  margin-top: 30px;
+}
+.test1, .test4 {
+  font-size: 16px;
+  height: 220px;
+}
+.test1 h3 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.test2, .test3, .test5, .test6 {
+  grid-column: 1/4;
+  margin: 0;
+}
+.test2 p, .test3 p, .test5 p, .test6 p {
+  margin: 0;
+}
 
+.test2 {
+  margin-top: 30px;
+}
+.test3, .test6 {
+  margin-bottom: 30px;
+}
+.testbox-cta {
+  margin-top: -300px;
+}
+.test4 h3 {
+  padding-top: 20px;
+}
+.test5 {
+  margin-top: 40px;
+}
 
 }
 
